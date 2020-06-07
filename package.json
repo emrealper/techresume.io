@@ -1,0 +1,40 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "array-move": "^2.0.0",
+    "axios": "^0.18.0",
+    "clone": "^2.1.2",
+    "firebase": "^5.9.1",
+    "react": "^16.8.4",
+    "react-contenteditable": "^3.2.6",
+    "react-dom": "^16.8.4",
+    "react-redux": "^6.0.1",
+    "react-redux-firebase": "^2.2.6",
+    "react-reorder": "^3.0.0-alpha.7",
+    "react-router-dom": "^5.0.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^2.1.8",
+    "react-sortable-hoc": "^1.8.3",
+    "react-stickynode": "^2.1.1",
+    "redux-saga": "^1.0.2",
+    "redux-saga-firebase": "^0.15.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

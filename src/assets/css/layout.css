@@ -1,0 +1,281 @@
+@font-face {
+  font-family: "AmazonEmber";
+  src: url("../fonts/AmazonEmber_Rg.ttf");
+}
+@font-face {
+  font-family: "AmazonEmberBold";
+  src: url("../fonts/AmazonEmber_Bd.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "AmazonEmberLight";
+  src: url("../fonts/AmazonEmber_Lt.ttf");
+  font-style:lighter;
+}
+@font-face {
+  font-family: "Amazon Bookerly";
+  src: url("../fonts/BookerlyLCD_It.ttf");
+  font-style: italic;
+}
+
+
+body {
+  margin-top: 70px;
+  /* font-family: Lato,sans-serif; */
+  /* font-size: 15px; */
+  /* line-height: 1.5; */
+  font-family: "AmazonEmber", "Helvetica", sans-serif;
+  /* font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif; */
+  color: #232F3E;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+
+/* @media (min-width:768px){.container{width:750px}
+}
+@media (min-width:992px){.container{width:970px}
+}
+@media (min-width:1200px){.container{width:1170px}
+} */
+
+.badge
+{
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 5px 9px;
+  font-family: sans-serif;
+  font-size: 12.5px !important;
+}
+
+.badge.dragging-item
+{
+  cursor: move;
+}
+/* .techStackList:hover > *[contenteditable="true"] {
+  background-color: rgba(217, 245, 255,0.5);
+} */
+
+
+
+
+nav.navbar {
+  border-bottom:1px solid #9e9e9e;
+  background: #fff;
+  text-transform:uppercase;
+	box-shadow:0 0 10px rgba(0,0,0,.33);
+}
+
+button.navbar-toggle {
+  margin:9px 15px 7px 0;
+  padding:5px 10px;
+  color:#9e9e9e;
+}
+
+a.navbar-brand {
+  font-size:16px;
+  font-weight:400;
+}
+
+a.navbar-brand span.navbar-brand-box {
+  border:1px solid #152939;
+  color:#152939;
+  font-weight: 600;
+  padding:8px 10px;
+}
+
+a.navbar-brand:hover span.navbar-brand-box {
+  /* color:#7b1fa2;
+	border-color:#7b1fa2; */
+}
+
+ul.nav a {
+  font-size:13px;
+  padding:16px 15px 14px;
+}
+
+ul.nav li.active a {
+	font-weight:700;
+}
+
+#contact-nav {
+	padding-top:14.5px;
+}
+
+.navbar-collapse.collapse.in #contact-nav {
+  padding-left:5px;
+  padding-bottom:10px;
+}
+
+a.contact-nav-item {
+  display:inline !important;
+  padding:0 10.5px !important;
+}
+
+.media-object.post-thumbnail {
+	width:80px;
+}
+
+.media-heading a {
+	color:rgb(97, 97, 97);
+}
+
+a.read-more-link {
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+h4.sidebar-title {
+	text-transform:uppercase;
+}
+
+ol.breadcrumb {
+	margin-bottom:15px;
+}
+
+.page-header{
+  padding-bottom:9.5px;
+  /* margin:42px 0 21px; */
+  border-bottom:1px solid #f5f5f5}
+
+.page-header {
+	border-color: #e0e0e0;
+	margin-top:0;
+	margin-bottom:15px;
+}
+
+.page-header h1 {
+  font-size: 32px;
+  margin-top:0;
+  margin-bottom:0;
+      font-family: AmazonEmberBold,Helvetica Neue Bold,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.res-content {
+    padding-bottom: 30px;
+}
+
+.res-section {
+    padding-bottom: 20px;
+}
+
+.res-section h3 {
+    margin-top:0;
+    margin-bottom: 20px;
+}
+
+#res-skills dt, dd {
+    margin-bottom:10px;
+}
+
+#res-highlights ul li {
+    margin:10px inherit;
+}
+
+#res-emp .clients {
+    padding-left: 40px;
+}
+
+#res-emp .clients ul {
+    list-style-type: circle;
+}
+
+.employer {
+    margin-bottom:40px;
+    border-bottom: solid #ebebeb 1px;
+}
+
+.employer:last-child {
+    margin-bottom:0;
+}
+
+.employer h4 {
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.affix {
+    top:130px;
+}
+
+#res-nav-list li.active {
+    font-weight:bold;
+}
+
+#res-nav-list li.active.no-change {
+    font-weight:normal;
+}
+
+#res-nav-list li li {
+    display: none;
+}
+
+#res-nav-list li.active li {
+    display:block;
+    font-weight:normal;
+}
+
+#res-nav-list li.active li.active {
+    font-weight:bold;
+}
+
+footer {
+	margin-top:40px;
+}
+
+@media (min-width:768px) {
+	.media-object.post-thumbnail {
+		width:100px;
+	}
+}
+
+@media (min-width:992px) {
+  body {
+    margin-top:110px;
+  }
+  
+  nav.navbar {
+    height:80px;
+    background: #fff;
+  }
+
+  a.navbar-brand {
+    font-size:22px;
+  }
+  
+  a.navbar-brand span.navbar-brand-box {
+  	border-width:2px;
+    padding:14px 19px;
+  }    
+  
+  ul.nav a {
+    font-size:15px;
+  }
+  
+  a.navbar-brand,
+  ul.nav a {
+    padding:34.5px 15px;
+  }
+
+  #contact-nav {
+    padding:34.5px 0;
+  }
+
+  a.contact-nav-item {
+    display:inline !important;
+    padding:0 10.5px !important;
+  }
+  .media-object.post-thumbnail {
+    width:120px;
+  }
+}
+
+.h3, h3 {
+
+  color: #232F3E !important;
+  /* font-family: "Amazon Ember", "Helvetica", sans-serif !important; */
+  font-size: 18px !important;
+  font-weight: bold !important;
+  /* line-height: 26px !important; */
+  margin-top: 50px;
+}

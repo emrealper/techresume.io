@@ -1,0 +1,129 @@
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+.contact-container
+{
+
+    text-align: center;
+    
+   
+    background: #f7f7f7;
+  
+    border-radius: 3px;
+}
+.contact-nav-item span
+{
+    margin-right: 5px;
+}
+
+content {
+    /* background-color:#F6F6F5; */
+    -webkit-justify-content: center;
+    justify-content: center;
+    /* margin-top: 80px; */
+}
+
+.container
+{
+
+    padding: 0 !important;
+}
+
+content, content main {
+    display: -webkit-flex;
+    display: flex;
+}
+
+content main {
+    max-width: 1280px;
+    min-width: 0;
+    /* margin-top: 10px; */
+}
+content main .main-area {
+    -webkit-flex: auto;
+    flex: auto;
+    min-width: 0;
+}
+
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.resume-body {
+    background-color: #fff;
+    margin-bottom: 20px;
+    line-height: 28px;
+    padding: 40px 40px 20px;
+    border-radius: 3px;
+}
+content main .right-side-bar {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: none;
+    flex: none;
+    min-width: 300px;
+    margin-left: 20px;
+}
+.side-bar, .side-bar .first-row {
+    display: -webkit-flex;
+    display: flex;
+}
+.side-bar {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    font-size: 16px;
+    width: 100%;
+}
+.side-bar .section {
+    font-size: 14px;
+    color: #303030;
+    background-color: #fff;
+    border: thin solid #e5e5e5;
+    border-radius: 3px;
+    /* margin-top: 16px; */
+    padding: 8px 16px;
+}
+.side-bar .section .section-title {
+    color: #505050;
+    font-weight: 700;
+}
+.side-bar .section .content {
+    margin-top: 8px;
+    padding-top: 16px;
+    border-top: thin solid #e5e5e5;
+}
+.side-bar a {
+    display: block;
+    color: #505050;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.resume-name
+{
+    color: #005b86 !important;
+}
+
+
+    .description {
+        font-style: italic;
+        margin-left: 40px;
+        color: #555;
+        margin-top: 10px;
+        font-size: 14px;
+        background: #e6e6e6;
+        padding: 6px 12px;
+        border-radius: 6px;
+    }
+
+
+.project-section
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
