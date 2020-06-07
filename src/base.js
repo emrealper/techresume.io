@@ -4,12 +4,12 @@ import '@firebase/firestore';
 import ReduxSagaFirebase from 'redux-saga-firebase'
 
 const config = {
-  apiKey: "AIzaSyCpPngCFg9Tbf101snu0YHU-7hIvaRvoxc",
+  apiKey: "",
   authDomain: "techresumeio.firebaseapp.com",
   databaseURL: "https://techresumeio.firebaseio.com",
   projectId: "techresumeio",
   storageBucket: "techresumeio.appspot.com",
-  messagingSenderId: "101867941708"
+  messagingSenderId: ""
 };
 
 
